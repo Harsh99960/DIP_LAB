@@ -8,7 +8,7 @@ close all;
 B= randi([0,255],8,8);
 display(B);
 %to create a 8*8 matrix with random numbers ranging between 0 and 255
-I=imread("Vidit.jpg");
+I=imread("Hardik-Pandya.jpg");
 figure
 imshow(I);
 %Uploading the basic input image
@@ -16,7 +16,7 @@ figure %for opening seperate window for each image
 Ig=rgb2gray(I); %keyword to convert image to grayscale
 imshow(Ig);
 %grayscale image shown
-I_red=imread("Vidit.jpg");
+I_red=imread("Hardik-Pandya.jpg");
 I_red(:,:,2)=0; %making the pixels of green channel zero
 I_red(:,:,3)=0; %making the pixels of blue channel zero
 figure
