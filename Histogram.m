@@ -1,7 +1,7 @@
 clc;
 clear all;
 close all;
-I=imread("Histogram.jpg");
+I=imread("Hist.jpeg");
 if size(I,3) == 3
     I = rgb2gray(I);
 end
